@@ -8,6 +8,10 @@ tasks:
 - match: './assets/*.css'
   commands:
   - :livereload /
+- match: './assets/*.tag'
+  commands:
+  - riot assets/ build/
+  - :livereload /
 - match: './assets/*.html'
   commands:
   - :livereload /
