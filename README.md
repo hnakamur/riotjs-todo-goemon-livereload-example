@@ -5,6 +5,8 @@ A browser livereload example of [Riot todo app](https://muut.com/riotjs/guide/) 
 
 ## Setup
 
+- Install node.js and npm: [Node.js](http://nodejs.org/)
+- Install riot globally: `npm install -g riot`
 - Install go: [Getting Started - The Go Programming Language](http://golang.org/doc/install)
 - Set [the GOPATH environment variable](https://golang.org/doc/code.html#GOPATH)
 - Install [mattn/goemon](https://github.com/mattn/goemon) with the following command.
